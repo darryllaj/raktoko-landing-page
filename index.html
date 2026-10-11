@@ -1,0 +1,1514 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pabrik Rak Minimarket & Paket Setup Toko Retail | RAKTOKO PRO</title>
+    <meta
+      name="description"
+      content="Paket rak minimarket langsung dari pabrik. Gratis konsultasi dan layout 3D, pengiriman Jawa-Bali, perakitan Jatim, Jateng, dan DIY, serta rak custom sesuai kebutuhan toko."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#12372a" />
+    <link rel="canonical" href="https://domainanda.com/" />
+
+    <!-- Open Graph: preview link saat website dibagikan -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:site_name" content="RAKTOKO PRO" />
+    <meta
+      property="og:title"
+      content="Pabrik Rak Minimarket & Paket Setup Toko Retail | RAKTOKO PRO"
+    />
+    <meta
+      property="og:description"
+      content="Bangun toko yang rapi dan modern sesuai kebutuhan toko. Nikmati konsultasi gratis, layout 3D, rak custom, pengiriman jawa-bali, dan paket setup toko langsung dari pabrik."
+    />
+    <meta property="og:url" content="https://domainanda.com/" />
+    <meta
+      property="og:image"
+      content="https://domainanda.com/images/logo.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Rak minimarket dan interior toko retail RAKTOKO PRO"
+    />
+
+    <!-- Twitter / X card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Pabrik Rak Minimarket & Paket Setup Toko Retail"
+    />
+    <meta
+      name="twitter:description"
+      content="Konsultasi gratis, layout 3D, rak custom, dan paket setup toko yang modern langsung dari pabrik sesuai kebutuhan toko."
+    />
+    <meta
+      name="twitter:image"
+      content="https://domainanda.com/images/logo.jpg"
+    />
+
+    <!-- Tailwind CDN cocok untuk prototipe. Untuk produksi, pertimbangkan build Tailwind lokal. -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              forest: "#12372a",
+              leaf: "#1f6b4b",
+              lime: "#d8f36a",
+              cream: "#f7f8f2",
+              ink: "#18231d",
+            },
+            boxShadow: {
+              soft: "0 18px 55px rgba(18, 55, 42, .10)",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family:
+          Inter,
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+      }
+      .grid-dots {
+        background-image: radial-gradient(
+          rgba(18, 55, 42, 0.12) 1px,
+          transparent 1px
+        );
+        background-size: 18px 18px;
+      }
+      .shelf-line {
+        height: 8px;
+        border-radius: 999px;
+        background: #dce4dc;
+        box-shadow: 0 3px 0 #aab9ac;
+      }
+      .focus-ring:focus-visible {
+        outline: 3px solid #d8f36a;
+        outline-offset: 3px;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-ink antialiased">
+    <!-- Announcement bar -->
+    <div
+      class="bg-forest px-4 py-2 text-center text-xs font-semibold tracking-wide text-white sm:text-sm"
+    >
+      LANGSUNG DARI PABRIK · KONSULTASI & LAYOUT 3D GRATIS
+    </div>
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 border-b border-gray-200 bg-cream/95 backdrop-blur">
+  <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+
+    <!-- Logo -->
+    <a href="#" class="flex items-center gap-3">
+      <img
+        src="img/logo.jpg"
+        alt="Logo RAKTOKO PRO"
+        width="50"
+        height="50"
+        class="h-[50px] w-[50px] object-contain"
+      />
+
+      <div>
+        <span class="block text-lg font-black tracking-tight text-forest">
+          RAKTOKO PRO
+        </span>
+        <span class="block text-xs text-gray-600">
+          Solusi Rak & Setup Toko
+        </span>
+      </div>
+    </a>
+
+    <!-- Navigasi Desktop -->
+    <nav class="hidden items-center gap-6 md:flex" aria-label="Navigasi utama">
+      <a href="#keunggulan" class="text-sm font-medium text-ink hover:text-leaf">
+        Keunggulan
+      </a>
+
+      <a href="#produk" class="text-sm font-medium text-ink hover:text-leaf">
+        Produk
+      </a>
+
+      <a href="#proses" class="text-sm font-medium text-ink hover:text-leaf">
+        Proses
+      </a>
+
+      <a href="#faq" class="text-sm font-medium text-ink hover:text-leaf">
+        FAQ
+      </a>
+
+      <a
+        href="#kontak"
+        data-wa
+        class="rounded-full bg-forest px-5 py-3 text-sm font-bold text-white transition hover:bg-leaf"
+      >
+        Konsultasi WA Gratis
+      </a>
+    </nav>
+
+    <!-- Tombol Hamburger: hanya tampil di mobile -->
+    <button
+      id="mobile-menu-button"
+      type="button"
+      class="inline-flex items-center justify-center rounded-lg p-2 text-forest hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-forest md:hidden"
+      aria-label="Buka menu navigasi"
+      aria-controls="mobile-menu"
+      aria-expanded="false"
+    >
+      <!-- Ikon Hamburger -->
+      <svg
+        id="hamburger-icon"
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-7 w-7"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        stroke-width="2"
+        aria-hidden="true"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M4 6h16M4 12h16M4 18h16"
+        />
+      </svg>
+
+      <!-- Ikon Close -->
+      <svg
+        id="close-icon"
+        xmlns="http://www.w3.org/2000/svg"
+        class="hidden h-7 w-7"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        stroke-width="2"
+        aria-hidden="true"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M6 18L18 6M6 6l12 12"
+        />
+      </svg>
+    </button>
+
+  </div>
+
+  <!-- Navigasi Mobile -->
+  <nav
+    id="mobile-menu"
+    class="hidden border-t border-gray-200 bg-cream px-4 py-4 md:hidden"
+    aria-label="Navigasi mobile"
+    aria-hidden="true"
+    inert
+  >
+    <div class="mx-auto flex max-w-7xl flex-col gap-1">
+
+      <a
+        href="#keunggulan"
+        class="mobile-menu-link rounded-lg px-4 py-3 font-medium text-ink hover:bg-gray-100"
+      >
+        Keunggulan
+      </a>
+
+      <a
+        href="#produk"
+        class="mobile-menu-link rounded-lg px-4 py-3 font-medium text-ink hover:bg-gray-100"
+      >
+        Produk
+      </a>
+
+      <a
+        href="#proses"
+        class="mobile-menu-link rounded-lg px-4 py-3 font-medium text-ink hover:bg-gray-100"
+      >
+        Proses
+      </a>
+
+      <a
+        href="#faq"
+        class="mobile-menu-link rounded-lg px-4 py-3 font-medium text-ink hover:bg-gray-100"
+      >
+        FAQ
+      </a>
+
+      <a
+        href="#kontak"
+        data-wa
+        class="mt-2 rounded-full bg-forest px-5 py-3 text-center font-bold text-white transition hover:bg-leaf"
+      >
+        Konsultasi WA Gratis
+      </a>
+
+    </div>
+  </nav>
+</header>
+
+    <main>
+      <!-- Hero -->
+      <section id="beranda" class="relative overflow-hidden bg-cream">
+        <div class="absolute inset-0 grid-dots opacity-60"></div>
+        <div
+          class="relative mx-auto grid max-w-7xl items-center gap-12 px-4 py-14 sm:px-6 sm:py-20 lg:grid-cols-[1.02fr_.98fr] lg:px-8 lg:py-24"
+        >
+          <div>
+            <div
+              class="mb-5 inline-flex items-center gap-2 rounded-full border border-emerald-900/10 bg-white px-3 py-1.5 text-xs font-bold text-forest shadow-sm sm:text-sm"
+            >
+              <span class="h-2 w-2 rounded-full bg-leaf"></span> PABRIK RAK
+              MINIMARKET & SETUP TOKO
+            </div>
+            <h1
+              class="max-w-2xl text-4xl font-black leading-[1.08] tracking-tight text-forest sm:text-5xl lg:text-6xl"
+            >
+              Bangun Toko Lebih
+              <span class="relative inline-block">
+                <span class="relative z-10">Rapi</span>
+                <span
+                  aria-hidden="true"
+                  class="absolute bottom-1 left-0 z-0 h-3 w-full bg-lime sm:h-4"
+                ></span> </span
+              >, Modern, dan Siap Jualan.
+            </h1>
+            <p
+              class="mt-6 max-w-xl text-base leading-7 text-slate-600 sm:text-lg sm:leading-8"
+            >
+              Solusi rak minimarket dan interior retail langsung dari pabrik.
+              Mulai dari satu unit rak hingga paket setup toko—sesuaikan dengan
+              kebutuhan dan ukuran ruangan Anda.
+            </p>
+            <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+              <a
+                data-wa
+                class="focus-ring inline-flex items-center justify-center gap-2 rounded-full bg-forest px-6 py-4 font-bold text-white shadow-lg shadow-forest/15 transition hover:-translate-y-0.5 hover:bg-leaf"
+                href="#kontak"
+                >Konsultasi & Layout 3D Gratis
+                <span aria-hidden="true">→</span></a
+              >
+              <a
+                class="focus-ring inline-flex items-center justify-center rounded-full border border-forest/15 bg-white px-6 py-4 font-bold text-forest transition hover:border-forest/40"
+                href="#produk"
+                >Lihat Produk & Layanan</a
+              >
+            </div>
+            <div
+              class="mt-8 flex flex-wrap gap-x-5 gap-y-3 text-sm font-semibold text-slate-600"
+            >
+              <span class="flex items-center gap-2"
+                ><span
+                  class="grid h-5 w-5 place-items-center rounded-full bg-lime text-xs text-forest"
+                  >✓</span
+                >
+                Harga langsung pabrik</span
+              >
+              <span class="flex items-center gap-2"
+                ><span
+                  class="grid h-5 w-5 place-items-center rounded-full bg-lime text-xs text-forest"
+                  >✓</span
+                >
+                Bisa custom</span
+              >
+              <span class="flex items-center gap-2"
+                ><span
+                  class="grid h-5 w-5 place-items-center rounded-full bg-lime text-xs text-forest"
+                  >✓</span
+                >
+                Untuk proyek retail</span
+              >
+            </div>
+          </div>
+
+          <!-- Custom inline illustration, no external image dependency -->
+          <div class="relative mx-auto w-full max-w-xl">
+            <div
+              class="absolute -right-2 top-2 h-24 w-24 rounded-full bg-lime/70 blur-2xl sm:-right-5 sm:h-36 sm:w-36"
+            ></div>
+            <div
+              class="relative rounded-[2rem] border border-white bg-white p-3 shadow-soft sm:p-5"
+            >
+              <div
+                class="overflow-hidden rounded-[1.5rem] bg-[#eaf0e8] p-4 sm:p-6"
+              >
+                <div class="mb-5 flex items-center justify-between">
+                  <span
+                    class="rounded-full bg-white px-3 py-1.5 text-xs font-bold text-forest"
+                    >ILUSTRASI SETUP TOKO</span
+                  ><span class="text-xs font-semibold text-slate-500"
+                    >Rapi • Efisien • Modern</span
+                  >
+                </div>
+                <svg
+                  viewBox="0 0 560 390"
+                  class="w-full"
+                  role="img"
+                  aria-label="Ilustrasi rak minimarket dengan susunan produk rapi"
+                >
+                  <defs>
+                    <linearGradient id="wall" x1="0" x2="1">
+                      <stop offset="0" stop-color="#f8faf5" />
+                      <stop offset="1" stop-color="#dfe8de" />
+                    </linearGradient>
+                    <linearGradient id="floor" x1="0" x2="0" y1="0" y2="1">
+                      <stop offset="0" stop-color="#d5e0d4" />
+                      <stop offset="1" stop-color="#bccdbd" />
+                    </linearGradient>
+                  </defs>
+                  <path
+                    d="M35 52 278 15 525 55 525 300 35 300Z"
+                    fill="url(#wall)"
+                  />
+                  <path
+                    d="M35 300 278 238 525 300 280 372Z"
+                    fill="url(#floor)"
+                  />
+                  <path
+                    d="M35 52 278 15 525 55"
+                    fill="none"
+                    stroke="#cad8ca"
+                    stroke-width="5"
+                  />
+                  <g transform="translate(78 78)">
+                    <rect
+                      width="150"
+                      height="194"
+                      rx="5"
+                      fill="#fff"
+                      stroke="#9eb29f"
+                      stroke-width="3"
+                    />
+                    <rect width="150" height="14" rx="3" fill="#174b37" />
+                    <rect y="57" width="150" height="8" fill="#9eb29f" />
+                    <rect y="115" width="150" height="8" fill="#9eb29f" />
+                    <rect y="173" width="150" height="8" fill="#9eb29f" />
+                    <g>
+                      <rect
+                        x="10"
+                        y="23"
+                        width="19"
+                        height="30"
+                        rx="3"
+                        fill="#e6a84d"
+                      />
+                      <rect
+                        x="34"
+                        y="31"
+                        width="24"
+                        height="22"
+                        rx="3"
+                        fill="#7baf87"
+                      />
+                      <rect
+                        x="64"
+                        y="20"
+                        width="20"
+                        height="33"
+                        rx="3"
+                        fill="#df795c"
+                      />
+                      <rect
+                        x="90"
+                        y="27"
+                        width="18"
+                        height="26"
+                        rx="3"
+                        fill="#8ea9d2"
+                      />
+                      <rect
+                        x="114"
+                        y="23"
+                        width="25"
+                        height="30"
+                        rx="3"
+                        fill="#d8c05c"
+                      />
+                    </g>
+                    <g>
+                      <rect
+                        x="10"
+                        y="72"
+                        width="27"
+                        height="37"
+                        rx="4"
+                        fill="#89b6a1"
+                      />
+                      <rect
+                        x="42"
+                        y="82"
+                        width="18"
+                        height="27"
+                        rx="3"
+                        fill="#e6a84d"
+                      />
+                      <rect
+                        x="65"
+                        y="70"
+                        width="25"
+                        height="39"
+                        rx="3"
+                        fill="#d67c66"
+                      />
+                      <rect
+                        x="96"
+                        y="79"
+                        width="20"
+                        height="30"
+                        rx="3"
+                        fill="#8ea9d2"
+                      />
+                      <rect
+                        x="121"
+                        y="75"
+                        width="19"
+                        height="34"
+                        rx="3"
+                        fill="#9dbd65"
+                      />
+                    </g>
+                    <g>
+                      <rect
+                        x="10"
+                        y="133"
+                        width="20"
+                        height="36"
+                        rx="3"
+                        fill="#d8c05c"
+                      />
+                      <rect
+                        x="36"
+                        y="140"
+                        width="26"
+                        height="29"
+                        rx="3"
+                        fill="#df795c"
+                      />
+                      <rect
+                        x="68"
+                        y="130"
+                        width="18"
+                        height="39"
+                        rx="3"
+                        fill="#8ea9d2"
+                      />
+                      <rect
+                        x="92"
+                        y="138"
+                        width="21"
+                        height="31"
+                        rx="3"
+                        fill="#7baf87"
+                      />
+                      <rect
+                        x="119"
+                        y="133"
+                        width="20"
+                        height="36"
+                        rx="3"
+                        fill="#e6a84d"
+                      />
+                    </g>
+                  </g>
+                  <g transform="translate(282 103) skewY(7)">
+                    <rect
+                      width="173"
+                      height="174"
+                      rx="5"
+                      fill="#fff"
+                      stroke="#9eb29f"
+                      stroke-width="3"
+                    />
+                    <rect width="173" height="14" rx="3" fill="#174b37" />
+                    <rect y="52" width="173" height="8" fill="#9eb29f" />
+                    <rect y="105" width="173" height="8" fill="#9eb29f" />
+                    <g>
+                      <rect
+                        x="12"
+                        y="22"
+                        width="24"
+                        height="26"
+                        rx="3"
+                        fill="#8ea9d2"
+                      />
+                      <rect
+                        x="42"
+                        y="18"
+                        width="18"
+                        height="30"
+                        rx="3"
+                        fill="#e6a84d"
+                      />
+                      <rect
+                        x="66"
+                        y="25"
+                        width="28"
+                        height="23"
+                        rx="3"
+                        fill="#7baf87"
+                      />
+                      <rect
+                        x="101"
+                        y="20"
+                        width="19"
+                        height="28"
+                        rx="3"
+                        fill="#df795c"
+                      />
+                      <rect
+                        x="126"
+                        y="24"
+                        width="32"
+                        height="24"
+                        rx="3"
+                        fill="#d8c05c"
+                      />
+                    </g>
+                    <g>
+                      <rect
+                        x="12"
+                        y="68"
+                        width="28"
+                        height="31"
+                        rx="3"
+                        fill="#d8c05c"
+                      />
+                      <rect
+                        x="47"
+                        y="71"
+                        width="20"
+                        height="28"
+                        rx="3"
+                        fill="#df795c"
+                      />
+                      <rect
+                        x="74"
+                        y="65"
+                        width="24"
+                        height="34"
+                        rx="3"
+                        fill="#8ea9d2"
+                      />
+                      <rect
+                        x="105"
+                        y="72"
+                        width="21"
+                        height="27"
+                        rx="3"
+                        fill="#7baf87"
+                      />
+                      <rect
+                        x="132"
+                        y="68"
+                        width="26"
+                        height="31"
+                        rx="3"
+                        fill="#e6a84d"
+                      />
+                    </g>
+                    <g>
+                      <rect
+                        x="12"
+                        y="121"
+                        width="24"
+                        height="32"
+                        rx="3"
+                        fill="#7baf87"
+                      />
+                      <rect
+                        x="43"
+                        y="125"
+                        width="30"
+                        height="28"
+                        rx="3"
+                        fill="#e6a84d"
+                      />
+                      <rect
+                        x="80"
+                        y="119"
+                        width="18"
+                        height="34"
+                        rx="3"
+                        fill="#df795c"
+                      />
+                      <rect
+                        x="105"
+                        y="125"
+                        width="23"
+                        height="28"
+                        rx="3"
+                        fill="#d8c05c"
+                      />
+                      <rect
+                        x="135"
+                        y="121"
+                        width="23"
+                        height="32"
+                        rx="3"
+                        fill="#8ea9d2"
+                      />
+                    </g>
+                  </g>
+                  <path
+                    d="M50 301 278 250 510 301"
+                    fill="none"
+                    stroke="#a6bba7"
+                    stroke-width="3"
+                  />
+                  <g transform="translate(236 287)">
+                    <rect
+                      x="0"
+                      y="0"
+                      width="91"
+                      height="49"
+                      rx="6"
+                      fill="#174b37"
+                    />
+                    <rect
+                      x="9"
+                      y="8"
+                      width="73"
+                      height="25"
+                      rx="3"
+                      fill="#d8f36a"
+                    />
+                    <path
+                      d="M18 20h55"
+                      stroke="#174b37"
+                      stroke-width="4"
+                      stroke-linecap="round"
+                    />
+                    <rect
+                      x="9"
+                      y="38"
+                      width="73"
+                      height="5"
+                      rx="2"
+                      fill="#6d927b"
+                    />
+                  </g>
+                  <g transform="translate(418 38)">
+                    <rect width="76" height="34" rx="17" fill="#d8f36a" />
+                    <text
+                      x="38"
+                      y="22"
+                      text-anchor="middle"
+                      font-size="12"
+                      font-weight="800"
+                      fill="#174b37"
+                    >
+                      CUSTOM
+                    </text>
+                  </g>
+                </svg>
+                <div
+                  class="mt-3 flex items-center justify-between rounded-xl bg-white px-4 py-3"
+                >
+                  <div>
+                    <p class="text-xs text-slate-500">Mulai dari konsultasi</p>
+                    <p class="font-extrabold text-forest">
+                      Layout toko sesuai ruangan
+                    </p>
+                  </div>
+                  <span
+                    class="grid h-10 w-10 place-items-center rounded-full bg-lime text-xl text-forest"
+                    >↗</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="absolute -bottom-5 -left-2 rounded-2xl bg-white px-4 py-3 shadow-soft sm:-left-5 sm:px-5"
+            >
+              <p class="text-xs font-semibold text-slate-500">SOLUSI LENGKAP</p>
+              <p class="text-sm font-black text-forest sm:text-base">
+                Rak + Layout + Interior
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trust strip -->
+      <section class="border-y border-slate-100 bg-white">
+        <div
+          class="mx-auto grid max-w-7xl grid-cols-2 gap-5 px-4 py-6 sm:px-6 md:grid-cols-4 lg:px-8"
+        >
+          <div class="flex items-center gap-3">
+            <span
+              class="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-cream text-xl"
+              >🏭</span
+            >
+            <div>
+              <p class="text-sm font-extrabold text-forest">Langsung Pabrik</p>
+              <p class="text-xs text-slate-500">Harga lebih kompetitif</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-3">
+            <span
+              class="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-cream text-xl"
+              >📐</span
+            >
+            <div>
+              <p class="text-sm font-extrabold text-forest">Layout 3D Gratis</p>
+              <p class="text-xs text-slate-500">Rencanakan lebih dulu</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-3">
+            <span
+              class="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-cream text-xl"
+              >🚚</span
+            >
+            <div>
+              <p class="text-sm font-extrabold text-forest">Ongkir Jawa–Bali</p>
+              <p class="text-xs text-slate-500">Gratis sesuai ketentuan</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-3">
+            <span
+              class="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-cream text-xl"
+              >🧰</span
+            >
+            <div>
+              <p class="text-sm font-extrabold text-forest">
+                Bantuan Perakitan
+              </p>
+              <p class="text-xs text-slate-500">Area pilihan</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Benefits -->
+      <section id="keunggulan" class="py-16 sm:py-20 lg:py-24">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="mx-auto max-w-2xl text-center">
+            <p class="text-xs font-black uppercase tracking-[.2em] text-leaf">
+              Kenapa RAKTOKO PRO?
+            </p>
+            <h2
+              class="mt-3 text-3xl font-black tracking-tight text-forest sm:text-4xl"
+            >
+              Lebih dari sekadar jual rak toko
+            </h2>
+            <p class="mt-4 leading-7 text-slate-600">
+              Kami bantu Anda menyiapkan ruang retail yang terencana,
+              fungsional, dan nyaman untuk pelanggan.
+            </p>
+          </div>
+          <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:mt-14 lg:grid-cols-3">
+            <article
+              class="rounded-2xl border border-slate-100 bg-white p-6 transition hover:-translate-y-1 hover:shadow-soft"
+            >
+              <span
+                class="grid h-12 w-12 place-items-center rounded-2xl bg-lime/60 text-2xl"
+                >📐</span
+              >
+              <h3 class="mt-5 text-lg font-extrabold text-forest">
+                Konsultasi & Layout 3D Gratis
+              </h3>
+              <p class="mt-2 text-sm leading-6 text-slate-600">
+                Diskusikan kebutuhan dan gambaran tata letak toko sebelum
+                memutuskan pembelian.
+              </p>
+            </article>
+            <article
+              class="rounded-2xl border border-slate-100 bg-white p-6 transition hover:-translate-y-1 hover:shadow-soft"
+            >
+              <span
+                class="grid h-12 w-12 place-items-center rounded-2xl bg-lime/60 text-2xl"
+                >🚚</span
+              >
+              <h3 class="mt-5 text-lg font-extrabold text-forest">
+                Gratis Ongkir Jawa–Bali
+              </h3>
+              <p class="mt-2 text-sm leading-6 text-slate-600">
+                Pengiriman gratis untuk wilayah Jawa–Bali sesuai cakupan, jumlah
+                pesanan, dan ketentuan yang berlaku.
+              </p>
+            </article>
+            <article
+              class="rounded-2xl border border-slate-100 bg-white p-6 transition hover:-translate-y-1 hover:shadow-soft"
+            >
+              <span
+                class="grid h-12 w-12 place-items-center rounded-2xl bg-lime/60 text-2xl"
+                >🧰</span
+              >
+              <h3 class="mt-5 text-lg font-extrabold text-forest">
+                Gratis Perakitan di Area Pilihan
+              </h3>
+              <p class="mt-2 text-sm leading-6 text-slate-600">
+                Layanan perakitan untuk wilayah Jawa Timur, Jawa Tengah, dan DIY
+                sesuai kesepakatan.
+              </p>
+            </article>
+            <article
+              class="rounded-2xl border border-slate-100 bg-white p-6 transition hover:-translate-y-1 hover:shadow-soft"
+            >
+              <span
+                class="grid h-12 w-12 place-items-center rounded-2xl bg-lime/60 text-2xl"
+                >📏</span
+              >
+              <h3 class="mt-5 text-lg font-extrabold text-forest">
+                Custom Sesuai Ruangan
+              </h3>
+              <p class="mt-2 text-sm leading-6 text-slate-600">
+                Rencanakan kebutuhan rak berdasarkan dimensi ruangan, kategori
+                barang, dan alur belanja.
+              </p>
+            </article>
+            <article
+              class="rounded-2xl border border-slate-100 bg-white p-6 transition hover:-translate-y-1 hover:shadow-soft"
+            >
+              <span
+                class="grid h-12 w-12 place-items-center rounded-2xl bg-lime/60 text-2xl"
+                >🏭</span
+              >
+              <h3 class="mt-5 text-lg font-extrabold text-forest">
+                Langsung dari Pabrik
+              </h3>
+              <p class="mt-2 text-sm leading-6 text-slate-600">
+                Dapatkan penawaran langsung dari sumber produksi untuk membantu
+                efisiensi anggaran.
+              </p>
+            </article>
+            <article
+              class="rounded-2xl border border-slate-100 bg-white p-6 transition hover:-translate-y-1 hover:shadow-soft"
+            >
+              <span
+                class="grid h-12 w-12 place-items-center rounded-2xl bg-lime/60 text-2xl"
+                >🏬</span
+              >
+              <h3 class="mt-5 text-lg font-extrabold text-forest">
+                Dari Satuan hingga Proyek Retail
+              </h3>
+              <p class="mt-2 text-sm leading-6 text-slate-600">
+                Melayani pembelian satuan, paket pembukaan toko, sampai
+                kebutuhan proyek retail.
+              </p>
+            </article>
+          </div>
+          <div
+            class="mt-6 flex flex-col items-start justify-between gap-4 rounded-2xl bg-cream p-6 sm:flex-row sm:items-center sm:p-8"
+          >
+            <div>
+              <h3 class="text-xl font-black text-forest">
+                Ingin tampilan toko lebih stylish?
+              </h3>
+              <p class="mt-1 text-sm leading-6 text-slate-600">
+                Kami juga melayani penataan interior toko agar tampak modern dan
+                konsisten.
+              </p>
+            </div>
+            <a
+              data-wa
+              class="focus-ring inline-flex shrink-0 items-center justify-center rounded-full bg-forest px-5 py-3 text-sm font-bold text-white hover:bg-leaf"
+              href="#kontak"
+              >Diskusikan Konsep Toko →</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Products -->
+      <section id="produk" class="bg-cream py-16 sm:py-20 lg:py-24">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div
+            class="flex flex-col justify-between gap-5 sm:flex-row sm:items-end"
+          >
+            <div class="max-w-2xl">
+              <p class="text-xs font-black uppercase tracking-[.2em] text-leaf">
+                Produk & Layanan
+              </p>
+              <h2
+                class="mt-3 text-3xl font-black tracking-tight text-forest sm:text-4xl"
+              >
+                Solusi untuk berbagai kebutuhan toko
+              </h2>
+              <p class="mt-4 leading-7 text-slate-600">
+                Pilih kebutuhan Anda, lalu konsultasikan ukuran dan jumlah yang
+                paling sesuai.
+              </p>
+            </div>
+            <a
+              data-wa
+              class="focus-ring inline-flex items-center justify-center gap-2 self-start rounded-full border border-forest/15 bg-white px-5 py-3 text-sm font-bold text-forest hover:border-forest/40 sm:self-auto"
+              href="#kontak"
+              >Tanyakan Katalog <span>↗</span></a
+            >
+          </div>
+          <div class="mt-10 grid gap-5 md:grid-cols-3">
+            <article class="overflow-hidden rounded-3xl bg-white shadow-sm">
+              <div class="grid h-52 place-items-center bg-[#e4ede3] p-6">
+                <svg
+                  viewBox="0 0 260 150"
+                  class="h-full w-full max-w-xs"
+                  role="img"
+                  aria-label="Ilustrasi rak gondola minimarket"
+                >
+                  <rect
+                    x="35"
+                    y="15"
+                    width="190"
+                    height="120"
+                    rx="5"
+                    fill="#fff"
+                    stroke="#174b37"
+                    stroke-width="5"
+                  />
+                  <path
+                    d="M35 48h190M35 80h190M35 112h190"
+                    stroke="#174b37"
+                    stroke-width="5"
+                  />
+                  <path
+                    d="M47 23v104M213 23v104"
+                    stroke="#174b37"
+                    stroke-width="5"
+                  />
+                  <g fill="#e6a84d">
+                    <rect x="50" y="27" width="18" height="17" rx="2" />
+                    <rect x="73" y="24" width="22" height="20" rx="2" />
+                    <rect x="101" y="28" width="19" height="16" rx="2" />
+                  </g>
+                  <g fill="#8eb59a">
+                    <rect x="131" y="25" width="20" height="19" rx="2" />
+                    <rect x="157" y="28" width="22" height="16" rx="2" />
+                    <rect x="185" y="25" width="17" height="19" rx="2" />
+                  </g>
+                  <g fill="#8ea9d2">
+                    <rect x="49" y="55" width="24" height="20" rx="2" />
+                    <rect x="80" y="57" width="18" height="18" rx="2" />
+                    <rect x="104" y="54" width="24" height="21" rx="2" />
+                    <rect x="135" y="57" width="20" height="18" rx="2" />
+                    <rect x="162" y="54" width="18" height="21" rx="2" />
+                    <rect x="186" y="57" width="17" height="18" rx="2" />
+                  </g>
+                  <g fill="#d67c66">
+                    <rect x="50" y="87" width="18" height="20" rx="2" />
+                    <rect x="75" y="84" width="25" height="23" rx="2" />
+                    <rect x="108" y="88" width="18" height="19" rx="2" />
+                    <rect x="134" y="84" width="22" height="23" rx="2" />
+                    <rect x="164" y="88" width="17" height="19" rx="2" />
+                    <rect x="188" y="84" width="15" height="23" rx="2" />
+                  </g>
+                </svg>
+              </div>
+              <div class="p-6">
+                <h3 class="text-xl font-black text-forest">
+                  Rak Gondola Minimarket
+                </h3>
+                <p class="mt-2 text-sm leading-6 text-slate-600">
+                  Pilihan rak untuk display produk, lorong belanja, dan
+                  pemanfaatan ruang toko.
+                </p>
+                <a
+                  data-wa
+                  class="mt-5 inline-flex items-center gap-2 text-sm font-extrabold text-leaf hover:text-forest"
+                  href="#kontak"
+                  >Tanya rak gondola <span>→</span></a
+                >
+              </div>
+            </article>
+            <article class="overflow-hidden rounded-3xl bg-white shadow-sm">
+              <div class="grid h-52 place-items-center bg-[#e4ede3] p-6">
+                <svg
+                  viewBox="0 0 260 150"
+                  class="h-full w-full max-w-xs"
+                  role="img"
+                  aria-label="Ilustrasi rak custom"
+                >
+                  <path
+                    d="M42 25h176v105H42z"
+                    fill="#fff"
+                    stroke="#174b37"
+                    stroke-width="5"
+                  />
+                  <path
+                    d="M42 59h176M42 94h176M84 25v105M173 25v105"
+                    stroke="#174b37"
+                    stroke-width="5"
+                  />
+                  <rect
+                    x="54"
+                    y="35"
+                    width="18"
+                    height="17"
+                    rx="3"
+                    fill="#e6a84d"
+                  />
+                  <rect
+                    x="98"
+                    y="35"
+                    width="61"
+                    height="17"
+                    rx="3"
+                    fill="#8eb59a"
+                  />
+                  <rect
+                    x="186"
+                    y="35"
+                    width="20"
+                    height="17"
+                    rx="3"
+                    fill="#8ea9d2"
+                  />
+                  <rect
+                    x="54"
+                    y="69"
+                    width="18"
+                    height="17"
+                    rx="3"
+                    fill="#d67c66"
+                  />
+                  <rect
+                    x="98"
+                    y="69"
+                    width="61"
+                    height="17"
+                    rx="3"
+                    fill="#e6a84d"
+                  />
+                  <rect
+                    x="186"
+                    y="69"
+                    width="20"
+                    height="17"
+                    rx="3"
+                    fill="#8eb59a"
+                  />
+                  <rect
+                    x="54"
+                    y="104"
+                    width="18"
+                    height="17"
+                    rx="3"
+                    fill="#8ea9d2"
+                  />
+                  <rect
+                    x="98"
+                    y="104"
+                    width="61"
+                    height="17"
+                    rx="3"
+                    fill="#d67c66"
+                  />
+                  <rect
+                    x="186"
+                    y="104"
+                    width="20"
+                    height="17"
+                    rx="3"
+                    fill="#e6a84d"
+                  />
+                </svg>
+              </div>
+              <div class="p-6">
+                <h3 class="text-xl font-black text-forest">Rak Custom</h3>
+                <p class="mt-2 text-sm leading-6 text-slate-600">
+                  Diskusikan ukuran, konfigurasi, dan kebutuhan display sesuai
+                  ruangan toko Anda.
+                </p>
+                <a
+                  data-wa
+                  class="mt-5 inline-flex items-center gap-2 text-sm font-extrabold text-leaf hover:text-forest"
+                  href="#kontak"
+                  >Konsultasi rak custom <span>→</span></a
+                >
+              </div>
+            </article>
+            <article class="overflow-hidden rounded-3xl bg-white shadow-sm">
+              <div class="grid h-52 place-items-center bg-[#e4ede3] p-6">
+                <svg
+                  viewBox="0 0 260 150"
+                  class="h-full w-full max-w-xs"
+                  role="img"
+                  aria-label="Ilustrasi interior toko modern"
+                >
+                  <path
+                    d="M30 48 130 12 230 48v82H30z"
+                    fill="#fff"
+                    stroke="#174b37"
+                    stroke-width="4"
+                  />
+                  <path
+                    d="M30 48h200M130 12v118"
+                    stroke="#174b37"
+                    stroke-width="4"
+                  />
+                  <rect
+                    x="48"
+                    y="62"
+                    width="64"
+                    height="52"
+                    rx="3"
+                    fill="#d8f36a"
+                  />
+                  <rect
+                    x="147"
+                    y="62"
+                    width="64"
+                    height="52"
+                    rx="3"
+                    fill="#dce7dc"
+                  />
+                  <path
+                    d="M55 75h50M55 89h50M55 103h50M154 75h50M154 89h50M154 103h50"
+                    stroke="#174b37"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                  />
+                  <path d="M106 130v-19h48v19" fill="#174b37" />
+                </svg>
+              </div>
+              <div class="p-6">
+                <h3 class="text-xl font-black text-forest">
+                  Interior & Paket Setup Toko
+                </h3>
+                <p class="mt-2 text-sm leading-6 text-slate-600">
+                  Satukan kebutuhan rak dan penataan interior untuk tampilan
+                  retail yang lebih modern.
+                </p>
+                <a
+                  data-wa
+                  class="mt-5 inline-flex items-center gap-2 text-sm font-extrabold text-leaf hover:text-forest"
+                  href="#kontak"
+                  >Rancang toko saya <span>→</span></a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Process -->
+      <section id="proses" class="py-16 sm:py-20 lg:py-24">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="mx-auto max-w-2xl text-center">
+            <p class="text-xs font-black uppercase tracking-[.2em] text-leaf">
+              Cara Kerja
+            </p>
+            <h2
+              class="mt-3 text-3xl font-black tracking-tight text-forest sm:text-4xl"
+            >
+              Mulai dari kebutuhan, lanjut ke solusi
+            </h2>
+            <p class="mt-4 leading-7 text-slate-600">
+              Proses konsultasi yang praktis untuk membantu Anda mengambil
+              keputusan.
+            </p>
+          </div>
+          <div class="mt-10 grid gap-5 md:grid-cols-3">
+            <div
+              class="relative rounded-2xl border border-slate-100 p-6 sm:p-8"
+            >
+              <span class="text-4xl font-black text-forest">01</span>
+              <h3 class="mt-4 text-lg font-extrabold text-forest">
+                Ceritakan kebutuhan
+              </h3>
+              <p class="mt-2 text-sm leading-6 text-slate-600">
+                Kirim lokasi, ukuran ruangan, jenis toko, dan gambaran kebutuhan
+                melalui WhatsApp.
+              </p>
+            </div>
+            <div
+              class="relative rounded-2xl border border-slate-100 p-6 sm:p-8"
+            >
+              <span class="text-4xl font-black text-forest">02</span>
+              <h3 class="mt-4 text-lg font-extrabold text-forest">
+                Rencanakan layout
+              </h3>
+              <p class="mt-2 text-sm leading-6 text-slate-600">
+                Diskusikan susunan rak dan opsi penataan yang sesuai kebutuhan
+                serta dimensi ruangan.
+              </p>
+            </div>
+            <div
+              class="relative rounded-2xl border border-slate-100 p-6 sm:p-8"
+            >
+              <span class="text-4xl font-black text-forest">03</span>
+              <h3 class="mt-4 text-lg font-extrabold text-forest">
+                Terima penawaran
+              </h3>
+              <p class="mt-2 text-sm leading-6 text-slate-600">
+                Tinjau rekomendasi dan penawaran sebelum menentukan pesanan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- B2B CTA -->
+      <section class="px-4 pb-16 sm:px-6 sm:pb-20 lg:px-8">
+        <div
+          id="kontak"
+          class="relative mx-auto max-w-7xl overflow-hidden rounded-[2rem] bg-forest px-6 py-10 sm:px-10 sm:py-14 lg:px-16"
+        >
+          <div
+            class="absolute -right-12 -top-16 h-64 w-64 rounded-full border-[35px] border-white/5"
+          ></div>
+          <div
+            class="absolute -bottom-24 right-40 h-52 w-52 rounded-full bg-lime/10 blur-2xl"
+          ></div>
+          <div
+            class="relative flex flex-col items-start justify-between gap-8 lg:flex-row lg:items-center"
+          >
+            <div class="max-w-2xl">
+              <p class="text-xs font-black uppercase tracking-[.2em] text-lime">
+                Untuk Pemilik Toko & Proyek Retail
+              </p>
+              <h2
+                class="mt-3 text-3xl font-black tracking-tight text-white sm:text-4xl"
+              >
+                Siap menata toko Anda?
+              </h2>
+              <p class="mt-4 max-w-xl leading-7 text-white/75">
+                Ceritakan kebutuhan Anda. Kami bantu diskusikan pilihan rak,
+                layout, dan kebutuhan interior—mulai dari pembelian satuan
+                sampai proyek retail.
+              </p>
+              <div
+                class="mt-5 flex flex-wrap gap-2 text-xs font-semibold text-white/80 sm:text-sm"
+              >
+                <span class="rounded-full border border-white/20 px-3 py-1.5"
+                  >Konsultasi gratis</span
+                ><span class="rounded-full border border-white/20 px-3 py-1.5"
+                  >Layout 3D</span
+                ><span class="rounded-full border border-white/20 px-3 py-1.5"
+                  >Rak custom</span
+                >
+              </div>
+            </div>
+            <div class="w-full rounded-2xl bg-white p-5 sm:p-6 lg:max-w-sm">
+              <p class="text-sm font-bold text-slate-500">LANGKAH PERTAMA</p>
+              <h3 class="mt-2 text-xl font-black text-forest">
+                Konsultasi via WhatsApp
+              </h3>
+              <p class="mt-2 text-sm leading-6 text-slate-600">
+                Klik tombol di bawah dan mulai ceritakan rencana toko Anda.
+              </p>
+              <a
+                data-wa
+                class="focus-ring mt-5 flex w-full items-center justify-center gap-2 rounded-full bg-lime px-5 py-4 font-extrabold text-forest transition hover:bg-[#c8e95a]"
+                href="#kontak"
+                ><svg
+                  viewBox="0 0 24 24"
+                  class="h-5 w-5"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M20.52 3.48A11.8 11.8 0 0 0 12.1 0C5.55 0 .22 5.32.22 11.87c0 2.1.55 4.15 1.6 5.96L.12 24l6.34-1.66a11.9 11.9 0 0 0 5.64 1.43h.01c6.55 0 11.88-5.33 11.88-11.88 0-3.17-1.24-6.15-3.47-8.41ZM12.1 21.75a9.9 9.9 0 0 1-5.05-1.39l-.36-.21-3.76.99 1-3.67-.24-.38a9.84 9.84 0 0 1-1.52-5.22c0-5.47 4.45-9.92 9.93-9.92a9.86 9.86 0 0 1 7.02 2.91 9.86 9.86 0 0 1 2.9 7.02c0 5.47-4.45 9.92-9.92 9.92Zm5.44-7.43c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.78.97-.95 1.17-.18.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.47-.89-.79-1.49-1.77-1.66-2.07-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.68-1.63-.93-2.23-.24-.58-.49-.5-.68-.51h-.58c-.2 0-.53.08-.8.38-.28.3-1.05 1.02-1.05 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.5 1.69.64.71.23 1.36.2 1.87.12.57-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.18-1.42-.08-.13-.28-.2-.58-.35Z"
+                  />
+                </svg>
+                Chat WhatsApp Sekarang</a
+              >
+              <p class="mt-3 text-center text-xs text-slate-500">
+                Ganti nomor WhatsApp di konfigurasi website.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="bg-cream py-16 sm:py-20">
+        <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+          <div class="text-center">
+            <p class="text-xs font-black uppercase tracking-[.2em] text-leaf">
+              FAQ
+            </p>
+            <h2
+              class="mt-3 text-3xl font-black tracking-tight text-forest sm:text-4xl"
+            >
+              Pertanyaan yang sering diajukan
+            </h2>
+          </div>
+          <div class="mt-8 space-y-3">
+            <details class="group rounded-2xl bg-white p-5">
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-forest"
+              >
+                Apakah bisa membeli rak satuan?<span
+                  class="text-xl transition group-open:rotate-45"
+                  >+</span
+                >
+              </summary>
+              <p class="mt-3 text-sm leading-6 text-slate-600">
+                Bisa. Kami melayani pembelian rak satuan, paket setup toko,
+                serta kebutuhan proyek retail. Konfirmasikan stok dan detail
+                produk melalui WhatsApp.
+              </p>
+            </details>
+            <details class="group rounded-2xl bg-white p-5">
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-forest"
+              >
+                Apakah ukuran rak dapat disesuaikan?<span
+                  class="text-xl transition group-open:rotate-45"
+                  >+</span
+                >
+              </summary>
+              <p class="mt-3 text-sm leading-6 text-slate-600">
+                Kami dapat mendiskusikan opsi custom sesuai kebutuhan dan
+                dimensi ruangan. Sampaikan ukuran serta kebutuhan toko Anda saat
+                konsultasi.
+              </p>
+            </details>
+            <details class="group rounded-2xl bg-white p-5">
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-forest"
+              >
+                Bagaimana ketentuan ongkir gratis dan perakitan?<span
+                  class="text-xl transition group-open:rotate-45"
+                  >+</span
+                >
+              </summary>
+              <p class="mt-3 text-sm leading-6 text-slate-600">
+                Ongkir gratis mencakup wilayah Jawa–Bali sesuai ketentuan.
+                Layanan perakitan tersedia untuk area Jawa Timur, Jawa Tengah,
+                dan DIY sesuai cakupan dan kesepakatan. Silakan konfirmasi
+                alamat dan jumlah pesanan.
+              </p>
+            </details>
+            <details class="group rounded-2xl bg-white p-5">
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-forest"
+              >
+                Apakah tersedia konsultasi dan layout 3D?<span
+                  class="text-xl transition group-open:rotate-45"
+                  >+</span
+                >
+              </summary>
+              <p class="mt-3 text-sm leading-6 text-slate-600">
+                Ya, konsultasi dan perencanaan layout 3D tersedia gratis.
+                Informasikan ukuran ruangan, foto atau denah, dan jenis produk
+                yang akan dipajang agar diskusi lebih terarah.
+              </p>
+            </details>
+          </div>
+          <div class="mt-8 text-center">
+            <p class="text-sm text-slate-600">Masih ada pertanyaan lain?</p>
+            <a
+              data-wa
+              class="mt-3 inline-flex items-center gap-2 font-extrabold text-leaf hover:text-forest"
+              href="#kontak"
+              >Tanyakan langsung melalui WhatsApp →</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white">
+      <div
+        class="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-8 sm:px-6 md:flex-row md:items-center md:justify-between lg:px-8"
+      >
+        <a href="#beranda" class="text-lg font-black tracking-tight text-forest"
+          >RAKTOKO <span class="text-leaf">PRO</span></a
+        >
+        <p class="text-sm text-slate-500">
+          Solusi rak minimarket, paket setup toko, dan interior retail.
+        </p>
+        <p class="text-xs text-slate-400">
+          © <span id="year"></span> RAKTOKO PRO. Seluruh hak cipta dilindungi.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Floating WhatsApp CTA -->
+    <a
+      data-wa
+      class="focus-ring fixed bottom-4 right-4 z-50 inline-flex items-center gap-2 rounded-full bg-[#25D366] px-4 py-3 font-extrabold text-white shadow-xl transition hover:-translate-y-1 hover:bg-[#1fbd5b] sm:bottom-6 sm:right-6 sm:px-5"
+      href="#kontak"
+      aria-label="Hubungi kami melalui WhatsApp"
+      ><svg
+        viewBox="0 0 24 24"
+        class="h-5 w-5"
+        fill="currentColor"
+        aria-hidden="true"
+      >
+        <path
+          d="M20.52 3.48A11.8 11.8 0 0 0 12.1 0C5.55 0 .22 5.32.22 11.87c0 2.1.55 4.15 1.6 5.96L.12 24l6.34-1.66a11.9 11.9 0 0 0 5.64 1.43h.01c6.55 0 11.88-5.33 11.88-11.88 0-3.17-1.24-6.15-3.47-8.41ZM12.1 21.75a9.9 9.9 0 0 1-5.05-1.39l-.36-.21-3.76.99 1-3.67-.24-.38a9.84 9.84 0 0 1-1.52-5.22c0-5.47 4.45-9.92 9.93-9.92a9.86 9.86 0 0 1 7.02 2.91 9.86 9.86 0 0 1 2.9 7.02c0 5.47-4.45 9.92-9.92 9.92Z"
+        /></svg
+      ><span class="hidden sm:inline">Chat WhatsApp</span
+      ><span class="sm:hidden">WhatsApp</span></a
+    >
+
+    <script>
+      // WAJIB DISESUAIKAN: gunakan nomor WhatsApp format internasional tanpa tanda +, spasi, atau strip.
+      const WHATSAPP_NUMBER = "6281234567890";
+      const DEFAULT_MESSAGE =
+        "Halo RAKTOKO PRO, saya ingin konsultasi rak minimarket dan paket setup toko.";
+
+      document.querySelectorAll("[data-wa]").forEach((link) => {
+        const message = link.dataset.message || DEFAULT_MESSAGE;
+        link.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+      });
+      document.getElementById("year").textContent = new Date().getFullYear();
+      const menuButton = document.getElementById("mobile-menu-button");
+  const mobileMenu = document.getElementById("mobile-menu");
+  const hamburgerIcon = document.getElementById("hamburger-icon");
+  const closeIcon = document.getElementById("close-icon");
+
+  function setMenuOpen(isOpen) {
+    mobileMenu.classList.toggle("hidden", !isOpen);
+    hamburgerIcon.classList.toggle("hidden", isOpen);
+    closeIcon.classList.toggle("hidden", !isOpen);
+
+    menuButton.setAttribute("aria-expanded", String(isOpen));
+    menuButton.setAttribute(
+      "aria-label",
+      isOpen ? "Tutup menu navigasi" : "Buka menu navigasi"
+    );
+
+    mobileMenu.setAttribute("aria-hidden", String(!isOpen));
+    mobileMenu.inert = !isOpen;
+  }
+
+  menuButton.addEventListener("click", () => {
+    const isOpen = menuButton.getAttribute("aria-expanded") === "true";
+    setMenuOpen(!isOpen);
+  });
+
+  // Tutup menu setelah pengguna memilih navigasi
+  document.querySelectorAll(".mobile-menu-link").forEach((link) => {
+    link.addEventListener("click", () => {
+      setMenuOpen(false);
+    });
+  });
+
+  // Tutup menu jika pengguna menekan tombol Escape
+  document.addEventListener("keydown", (event) => {
+    if (
+      event.key === "Escape" &&
+      menuButton.getAttribute("aria-expanded") === "true"
+    ) {
+      setMenuOpen(false);
+      menuButton.focus();
+    }
+  });
+
+  // Jika layar berubah menjadi desktop, pastikan menu mobile tertutup
+  window.addEventListener("resize", () => {
+    if (window.innerWidth >= 768) {
+      setMenuOpen(false);
+    }
+  });
+    </script>
+  </body>
+</html>

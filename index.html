@@ -12,7 +12,7 @@
     <meta name="theme-color" content="#12372a" />
     <link rel="canonical" href="https://raktoko.vercel.app/" />
 
-    <!-- Open Graph: preview link saat website dibagikan -->
+    
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="id_ID" />
     <meta property="og:site_name" content="RAKTOKO PRO" />
@@ -50,8 +50,6 @@
       name="twitter:image"
       content="https://raktoko.vercel.app/images/logo.jpg"
     />
-
-    <!-- Tailwind CDN cocok untuk prototipe. Untuk produksi, pertimbangkan build Tailwind lokal. -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -102,18 +100,13 @@
     </style>
   </head>
   <body class="bg-white text-ink antialiased">
-    <!-- Announcement bar -->
     <div
       class="bg-forest px-4 py-2 text-center text-xs font-semibold tracking-wide text-white sm:text-sm"
     >
       LANGSUNG DARI PABRIK · KONSULTASI & LAYOUT 3D GRATIS
     </div>
-
-    <!-- Header -->
     <header class="sticky top-0 z-50 border-b border-gray-200 bg-cream/95 backdrop-blur">
   <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
-
-    <!-- Logo -->
     <a href="#" class="flex items-center gap-3">
       <img
         src="img/logo.jpg"
@@ -132,8 +125,6 @@
         </span>
       </div>
     </a>
-
-    <!-- Navigasi Desktop -->
     <nav class="hidden items-center gap-6 md:flex" aria-label="Navigasi utama">
       <a href="#keunggulan" class="text-sm font-medium text-ink hover:text-leaf">
         Keunggulan
@@ -159,8 +150,6 @@
         Konsultasi WA Gratis
       </a>
     </nav>
-
-    <!-- Tombol Hamburger: hanya tampil di mobile -->
     <button
       id="mobile-menu-button"
       type="button"
@@ -169,7 +158,6 @@
       aria-controls="mobile-menu"
       aria-expanded="false"
     >
-      <!-- Ikon Hamburger -->
       <svg
         id="hamburger-icon"
         xmlns="http://www.w3.org/2000/svg"
@@ -186,8 +174,6 @@
           d="M4 6h16M4 12h16M4 18h16"
         />
       </svg>
-
-      <!-- Ikon Close -->
       <svg
         id="close-icon"
         xmlns="http://www.w3.org/2000/svg"
@@ -207,8 +193,6 @@
     </button>
 
   </div>
-
-  <!-- Navigasi Mobile -->
   <nav
     id="mobile-menu"
     class="hidden border-t border-gray-200 bg-cream px-4 py-4 md:hidden"
@@ -259,7 +243,6 @@
 </header>
 
     <main>
-      <!-- Hero -->
       <section id="beranda" class="relative overflow-hidden bg-cream">
         <div class="absolute inset-0 grid-dots opacity-60"></div>
         <div
@@ -331,8 +314,6 @@
               >
             </div>
           </div>
-
-          <!-- Custom inline illustration, no external image dependency -->
           <div class="relative mx-auto w-full max-w-xl">
             <div
               class="absolute -right-2 top-2 h-24 w-24 rounded-full bg-lime/70 blur-2xl sm:-right-5 sm:h-36 sm:w-36"
@@ -739,8 +720,6 @@
           </div>
         </div>
       </section>
-
-      <!-- Trust strip -->
       <section class="border-y border-slate-100 bg-white">
         <div
           class="mx-auto grid max-w-7xl grid-cols-2 gap-5 px-4 py-6 sm:px-6 md:grid-cols-4 lg:px-8"
@@ -789,8 +768,6 @@
           </div>
         </div>
       </section>
-
-      <!-- Benefits -->
       <section id="keunggulan" class="py-16 sm:py-20 lg:py-24">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="mx-auto max-w-2xl text-center">
@@ -920,8 +897,6 @@
           </div>
         </div>
       </section>
-
-      <!-- Products -->
       <section id="produk" class="bg-cream py-16 sm:py-20 lg:py-24">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div
@@ -1191,8 +1166,6 @@
           </div>
         </div>
       </section>
-
-      <!-- Process -->
       <section id="proses" class="py-16 sm:py-20 lg:py-24">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="mx-auto max-w-2xl text-center">
@@ -1248,8 +1221,6 @@
           </div>
         </div>
       </section>
-
-      <!-- B2B CTA -->
       <section class="px-4 pb-16 sm:px-6 sm:pb-20 lg:px-8">
         <div
           id="kontak"
@@ -1321,8 +1292,6 @@
           </div>
         </div>
       </section>
-
-      <!-- FAQ -->
       <section id="faq" class="bg-cream py-16 sm:py-20">
         <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           <div class="text-center">
@@ -1410,8 +1379,6 @@
         </div>
       </section>
     </main>
-
-    <!-- Footer -->
     <footer class="bg-white">
       <div
         class="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-8 sm:px-6 md:flex-row md:items-center md:justify-between lg:px-8"
@@ -1434,16 +1401,9 @@
       class="focus-ring fixed bottom-4 right-4 z-50 inline-flex items-center gap-2 rounded-full bg-[#25D366] px-4 py-3 font-extrabold text-white shadow-xl transition hover:-translate-y-1 hover:bg-[#1fbd5b] sm:bottom-6 sm:right-6 sm:px-5"
       href="#kontak"
       aria-label="Hubungi kami melalui WhatsApp"
-      ><svg
-        viewBox="0 0 24 24"
-        class="h-5 w-5"
-        fill="currentColor"
-        aria-hidden="true"
-      >
-        <path
-          d="M20.52 3.48A11.8 11.8 0 0 0 12.1 0C5.55 0 .22 5.32.22 11.87c0 2.1.55 4.15 1.6 5.96L.12 24l6.34-1.66a11.9 11.9 0 0 0 5.64 1.43h.01c6.55 0 11.88-5.33 11.88-11.88 0-3.17-1.24-6.15-3.47-8.41ZM12.1 21.75a9.9 9.9 0 0 1-5.05-1.39l-.36-.21-3.76.99 1-3.67-.24-.38a9.84 9.84 0 0 1-1.52-5.22c0-5.47 4.45-9.92 9.93-9.92a9.86 9.86 0 0 1 7.02 2.91 9.86 9.86 0 0 1 2.9 7.02c0 5.47-4.45 9.92-9.92 9.92Z"
-        /></svg
-      ><span class="hidden sm:inline">Chat WhatsApp</span
+      ><img src="img\WA-logo.svg.svg" style="width: clamp(28px, 3vw, 40px); height: auto;" alt="">
+        
+      <span class="hidden sm:inline">Chat WhatsApp</span
       ><span class="sm:hidden">WhatsApp</span></a
     >
 
@@ -1492,7 +1452,7 @@
     });
   });
 
-  // Tutup menu jika pengguna menekan tombol Escape
+  
   document.addEventListener("keydown", (event) => {
     if (
       event.key === "Escape" &&
@@ -1503,7 +1463,6 @@
     }
   });
 
-  // Jika layar berubah menjadi desktop, pastikan menu mobile tertutup
   window.addEventListener("resize", () => {
     if (window.innerWidth >= 768) {
       setMenuOpen(false);
